@@ -1,0 +1,27 @@
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/public/bundles/
+/var/
+/vendor/
+.idea
+###< symfony/framework-bundle ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
+
+###> editor/computer-ext ###
+/.idea
+/.DS_Store
+###< editor/computer-ext
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
